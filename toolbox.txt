@@ -1,0 +1,7 @@
+# poetry commands
+poetry init
+poetry add <package>
+poetry install 
+
+# to run fast api server
+uvicorn api:app --reload
